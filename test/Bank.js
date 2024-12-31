@@ -104,5 +104,14 @@ describe("Bank", function () {
         ).to.emit(bank, "Withdraw")
          .withArgs(owner, addr1, ethers.parseEther("1"));
     });
+
+    it("Should correctly send from another account", async function () {
+        const { bank, addr1 } = await loadFixture(deployBankFixture);
+
+        await bank.connect(addr1).deposit({ value: ethers.parseEther("1") });
+
+        expect(await bank.connect(addr1).getBalance()).to.equal(ethers.parseEther("1"));
+        expect(await bank.getBalance()).to.equal(ethers.parseEther("0"));
+    })
 });
 
