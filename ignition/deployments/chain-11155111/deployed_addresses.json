@@ -1,7 +1,6 @@
 {
-  "ProxyModule#Bank": "0xC6f919854C49805D4cABee42A1d45dDB7d2Af8e3",
-  "UpgradeModule#BankV2": "0xa117b8206D86379A5c31B3342Ac82B43Ed3C3601",
-  "ProxyModule#TransparentUpgradeableProxy": "0x2E081ddc72BC7E6e2F8100BC697aE7cF2533F0F3",
-  "ProxyModule#ProxyAdmin": "0xD52C181002438ec778e199b0Ad5abc2E3e2F22f9",
-  "BankModule#Bank": "0x2E081ddc72BC7E6e2F8100BC697aE7cF2533F0F3"
+  "ProxyModule#Bank": "0x56c563e080030589e151127AAdDEd3969ac82Ed1",
+  "ProxyModule#TransparentUpgradeableProxy": "0xBAc9b93026897C6b048822E47b00B5BbABc39bA6",
+  "ProxyModule#ProxyAdmin": "0xEf58Ab4250e58B716b5A91e1a308d6cB0B909F15",
+  "UpgradeModule#BankV2": "0xB72A6640C423857506018a9ee3606305bF45c756"
 }
